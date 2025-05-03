@@ -9,6 +9,7 @@ import fingerspeeds from "../images/fingerspeeds.png"
 import chefai from "../images/chefai.png"
 import evm from "../images/evm.png"
 import parking from "../images/parking.png"
+import { connect } from 'react-redux';
 const Projects = () => {
   return (
     <div>
@@ -20,6 +21,7 @@ const Projects = () => {
         <ProjectBox projectPhoto={fashionstore} projectName="Fashion Store" projectKey="FashionStore" />
         <ProjectBox projectPhoto={resumeb} projectName="Resume Builder" projectKey="ResumeBuilder"/>
         <ProjectBox projectPhoto={fingerspeeds} projectName="Finger Speeds" projectKey="FingerSpeeds"/>
+        <ProjectBox projectPhoto={connect} projectName="Connect" projectKey="Connect"/>
         <ProjectBox projectPhoto={chefai} projectName="Chef AI" projectKey="ChefAI"/>
         <ProjectBox projectPhoto={evm}  projectName="EVM" projectKey="EVM"/>
         <ProjectBox projectPhoto={parking} projectName="Parking Allotment System" projectKey="ParkingAllotment"/>

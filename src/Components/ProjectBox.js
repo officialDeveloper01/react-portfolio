@@ -18,6 +18,9 @@ const  ProjectBox = ({projectPhoto, projectKey, projectName}) => {
     ResumeBuilderGithub:"https://github.com/officialDeveloper01/react-resume-builder",
     ResumeBuilderWebsite:"https://resumebuilder-nj.vercel.app/",
 
+    ConnectGithub:"https://github.com/officialDeveloper01/connect",
+    ConnectWebsite:"https://connect-chatroom.vercel.app/",
+
     FingerSpeedsGithub:"https://github.com/officialDeveloper01/finger-speeds",
     FingerSpeedsWebsite:"https://fingerspeeds.vercel.app",
 
