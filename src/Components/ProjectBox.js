@@ -30,6 +30,9 @@ const  ProjectBox = ({projectPhoto, projectKey, projectName}) => {
     EVMGithub:"https://github.com/officialDeveloper01/EVM",
     
     ParkingAllotmentGithub:"https://github.com/officialDeveloper01/parking-allotment",
+
+    DataVizGithub:"https://github.com/officialDeveloper01/datavizpro",
+    DataVizWebsite:"https://datavizpro.vercel.app/",
   }
 
   let show ='';
