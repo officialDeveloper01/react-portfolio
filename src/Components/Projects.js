@@ -1,16 +1,18 @@
 import React from 'react';
 import ProjectBox from './ProjectBox';
-import chunkymonkey from "../images/chunkymonkey.png"
-import fashionstore from "../images/fashionstore.png"
-import starbattle from "../images/starbattle.png"
-import dict from "../images/vocabulary.gif"
-import resumeb from "../images/resumebuilder.png"
-import fingerspeeds from "../images/fingerspeeds.png"
-import chefai from "../images/chefai.png"
-import evm from "../images/evm.png"
-import parking from "../images/parking.png"
+import chunkymonkey from "../images/chunkymonkey.png";
+import fashionstore from "../images/fashionstore.png";
+import starbattle from "../images/starbattle.png";
+import dict from "../images/vocabulary.gif";
+import resumeb from "../images/resumebuilder.png";
+import fingerspeeds from "../images/fingerspeeds.png";
+import chefai from "../images/chefai.png";
+import evm from "../images/evm.png";
+import parking from "../images/parking.png";
 import { connect } from 'react-redux';
-import connectt from '../images/connect.png'
+import connectt from '../images/connect.png';
+import datavizpro from '../images/datavizpro.png';
+
 const Projects = () => {
   return (
     <div>
@@ -21,6 +23,7 @@ const Projects = () => {
         <ProjectBox projectPhoto={dict} projectName="Pocket Dictonary App" projectKey="PocketDict" />
         <ProjectBox projectPhoto={fashionstore} projectName="Fashion Store" projectKey="FashionStore" />
         <ProjectBox projectPhoto={resumeb} projectName="Resume Builder" projectKey="ResumeBuilder"/>
+        <ProjectBox projectPhoto={datavizpro} projectName="DataViz Pro" projectKey="DataViz"/>
         <ProjectBox projectPhoto={fingerspeeds} projectName="Finger Speeds" projectKey="FingerSpeeds"/>
         <ProjectBox projectPhoto={connectt} projectName="Connect" projectKey="Connect"/>
         <ProjectBox projectPhoto={chefai} projectName="Chef AI" projectKey="ChefAI"/>
