@@ -9,6 +9,7 @@ const Skills = ({skill}) => {
     const icon = {
         'C++': <CgCPlusPlus/>,
         Postman: <SiPostman/>,
+        Python: <FaPython/>,
         React: <FaReact/>,
         Javascript: <DiJavascript1/>,
         Node : <DiNodejs/>,
