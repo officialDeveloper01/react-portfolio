@@ -8,12 +8,12 @@ const Footer = () => {
   return (
     <footer>
       <div className='footerLinks'>
-        <a href="https://github.com/officialDeveloper01" target='_blank'><FaGithub/></a>
-        <a href='https://www.linkedin.com/in/jhambernaman/' target='_blank'><IoLogoLinkedin/></a>
-        <a href='mailTo:namanprocoder@gmail.com' target='_blank'><GrMail/></a>
-        <a href='https://instagram.com/jhambernaman' target='_blank'><FaInstagram/></a>
-        <a href='https://twitter.com/_namanjain_1' target='_blank'><FaXTwitter/></a>
-        <a href='https://wa.me/+919840339344' target='_blank'><FaWhatsapp/></a>
+        <a href="https://github.com/officialDeveloper01" target='_blank' rel="noreferrer"><FaGithub/></a>
+        <a href='https://www.linkedin.com/in/jhambernaman/' target='_blank' rel="noreferrer"><IoLogoLinkedin/></a>
+        <a href='mailTo:namanprocoder@gmail.com' target='_blank' rel="noreferrer"><GrMail/></a>
+        <a href='https://instagram.com/jhambernaman' target='_blank' rel="noreferrer"><FaInstagram/></a>
+        <a href='https://twitter.com/_namanjain_1' target='_blank' rel="noreferrer"><FaXTwitter/></a>
+        <a href='https://wa.me/+919840339344' target='_blank' rel="noreferrer"><FaWhatsapp/></a>
       </div>
     </footer>
   )
